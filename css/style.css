@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #CA9769;
+}
+
+body {
+    overflow-x: hidden;
+    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.light-color {
+    color: #fff;
+}
+
+
+.parallax-window {
+    min-height: 250px;
+    background: transparent;
+}
+
+.center-align {
+    text-align: center;
+}
+
+#about {
+    background: #f2f2f2;
+}
+
+#main-header .row{
+    min-height: 600px;
+}
+
+#main-header .cover-image {
+    background: url("../img/cover.jpg") no-repeat center center/cover;
+}
+
+#mission {
+    background: #f2f2f2;
+}
+
+
+#main-footer {
+    background: #333;
+    color: #fff;
+}
+
+#main-footer p {
+    color: #a2a2a2;
+}
