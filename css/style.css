@@ -26,6 +26,10 @@ body {
     text-align: center;
 }
 
+.right-align {
+    text-align: right;
+}
+
 #about {
     background: #f2f2f2;
 }
@@ -36,6 +40,13 @@ body {
 
 #main-header .cover-image {
     background: url("../img/cover.jpg") no-repeat center center/cover;
+}
+
+#about .cover-image {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: url("../img/cover3.jpg") no-repeat center center/cover;
 }
 
 #mission {
