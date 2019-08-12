@@ -2,11 +2,16 @@
     --primary-color: #CA9769;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
     line-height: 1.4;
     box-sizing: border-box;
 }
+
 
 .primary-color {
     color: var(--primary-color);
@@ -68,5 +73,10 @@ body {
     
     #about .cover-image {
         display: none;    
+    }
+
+    .size-sm {
+        font-weight: 600;
+        font-size: 2rem !important;
     }
 }
